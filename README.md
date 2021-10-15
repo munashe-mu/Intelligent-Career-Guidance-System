@@ -1,0 +1,2 @@
+# Intelligent-Career-Guidance-System
+The system provides career guidance to students from pre-O'level and monitors the student up to the tertiary level. The system assesses the IQ level of the student and recommends the best area of focus. The system monitors the student within their recommended field to see whether the student is still on the right career path and also recommends A level combination combination and Undergraduate degree programs with alternatives. 
