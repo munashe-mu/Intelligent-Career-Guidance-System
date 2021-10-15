@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="career_guidance_system.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+   <title>CACG</title>
+        <link href="css/optical.css" rel="stylesheet" type="text/css"/>
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <link rel="icon" type="image/png" href="images/logo.jpg"/>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div class="top_bar">
+        <div class="left_top">
+        <!---img src="images/logo.jpg"%-->
+        <h3>Intelligent Career Guidance</h3>
+        </div>
+        
+        <div class="right_top">
+        <ul>
+            <li><asp:LinkButton ID="BtnBack" runat="server" OnClick="BtnBack_Click" >Back</asp:LinkButton> </li>
+
+            <li><asp:LinkButton ID="BtnLogout" runat="server" OnClick="BtnLogout_Click"  >Logout</asp:LinkButton></li>
+            </ul>
+          
+        </div>
+                </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <asp:Label runat="server" ID="label_welcome" Visible="false"  Text="Label"></asp:Label>
+<asp:Label runat="server" ID="Label1" Visible="false" Text="Label"></asp:Label>
+        <asp:Label runat="server" ID="Label2" Visible="false" Text="Label"></asp:Label>
+    </form>
+</body>
+</html>
+
